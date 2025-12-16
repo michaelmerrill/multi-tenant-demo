@@ -1,7 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server";
 import { getSubdomain } from "tldts";
 
-const VALID_TENANTS = new Set(["acme", "bob", "test"]);
+const VALID_TENANTS = new Set(["acme", "stark", "wayne"]);
 
 function getTenant(request: NextRequest): string | null {
   const hostname = request.headers.get("host") || request.nextUrl.hostname;

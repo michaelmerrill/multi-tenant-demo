@@ -1,6 +1,6 @@
 export function VercelEnvDebug() {
   return (
-    <div className="w-full rounded-lg border border-zinc-200 bg-zinc-100 p-4 font-mono text-sm dark:border-zinc-800 dark:bg-zinc-900">
+    <div className="w-full rounded-lg border border-zinc-200 bg-zinc-100 mt-4 p-4 font-mono text-sm dark:border-zinc-800 dark:bg-zinc-900">
       <h2 className="mb-3 font-semibold text-zinc-900 dark:text-zinc-100">
         Vercel Environment
       </h2>
@@ -27,4 +27,3 @@ export function VercelEnvDebug() {
     </div>
   );
 }
-
